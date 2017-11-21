@@ -11,7 +11,6 @@ public class Student Extends Person
 		this.GPA=GPA;
 		this.Major=Major;
 		this.OSIS=OSIS;
-		
 	}
 
 	/**
