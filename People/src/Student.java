@@ -1,5 +1,10 @@
+/**
+ * /**
+ * Lingli Zou, Tabassum Bhuiyan
+ * Lab 2.2 Person
+ */
 
-public class Student Extends Person
+public class Student extends Person
 {
 	private double GPA;
 	private String Major;
@@ -16,14 +21,14 @@ public class Student Extends Person
 	/**
 	 * @return the person
 	 */
-	public Extends getPerson() {
+	public extends getPerson() {
 		return Person;
 	}
 
 	/**
 	 * @param person the person to set
 	 */
-	public void setPerson(Extends person) {
+	public void setPerson(extends person) {
 		Person = person;
 	}   
 

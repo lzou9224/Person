@@ -1,5 +1,10 @@
+/**
+ * /**
+ * Lingli Zou, Tabassum Bhuiyan
+ * Lab 2.2 Person
+ */
 
-public class Teacher Extends Person 
+public class Teacher extends Person 
 {
 	private String Subject;
 	private String Title; //Mr, Ms, Mx, Mrs
@@ -46,5 +51,9 @@ public class Teacher Extends Person
 	 */
 	public void setTitle(String title) {
 		Title = title;
+	}
+	public abstract String toString()
+	{
+		return "
 	}
 }
