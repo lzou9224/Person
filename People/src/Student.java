@@ -73,5 +73,10 @@ public class Student extends Person
 	public void setOSIS(int oSIS) {
 		OSIS = oSIS;
 	}
+	
+	public abstract String toString()
+	{
+		return  this.familyName + ", " + this.firstName;
+	}
 }
 

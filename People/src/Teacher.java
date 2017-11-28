@@ -54,6 +54,6 @@ public class Teacher extends Person
 	}
 	public abstract String toString()
 	{
-		return "
-	}
+		return this.title + "." + this.familyName;
+	
 }
