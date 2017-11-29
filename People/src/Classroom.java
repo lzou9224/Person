@@ -32,9 +32,9 @@ public class Classroom {
 		}
 	}
 	
-	public String getAverage()
+	public void printClass()
 	{
-		System.out.println(teacher+this.getSubject+this.classAverage)
+		System.out.println(teacher+this.teacher.getSubject() + this.student);
 	}
 }
 	

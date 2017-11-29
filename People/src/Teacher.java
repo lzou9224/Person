@@ -26,7 +26,7 @@ public abstract class Teacher extends Person
 
 	public String toString;
 	{
-		return this.Title + "." + this.familyName;
+		return this.getTitle() + "." + this.getFamilyName();
 	
 	}
 }
