@@ -20,10 +20,17 @@ public class Classroom {
 
 	public double classAverage()
 	{
-		double sum = 0;
-		for (int x = 0; x <= student.length; x++) {
-			sum = sum + student[x].getGpa();
+		double total  = 0.0;
+		for (person p: this.students)
+		{
+			if (p instanceof student)
+			{
+				if (p instanceof student)
+				{
+					total += (student)p.getGPA(); //casting to a type
+					{
+						return total/this.student.length;
+					}
+				}
+			}
 		}
-		return sum / student.length;
-	}
-}
