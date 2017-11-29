@@ -12,7 +12,7 @@ public abstract class Person
 		this.familyName=familyName;
 		this.weight=weight;
 	}
-	
+
 	/**
 	 * @return the firstName
 	 */

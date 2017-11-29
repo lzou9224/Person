@@ -4,56 +4,29 @@
  * Lab 2.2 Person
  */
 
-public class Teacher extends Person 
+public abstract class Teacher extends Person 
 {
 	private String Subject;
 	private String Title; //Mr, Ms, Mx, Mrs
 	
-	public Teacher(String Subject, String Title)
+	public Teacher(int height, String firstName, String familyName, double weight, String Subject, String Title)
 	{
-		super(Subject, Title); //super constructor
+		super(height, firstName, familyName, weight); //super constructor
 		this.Subject=Subject;
 		this.Title=Title;
 	}
-	public abstract String toString();
 
-
-	/**
-	 * @param person the person to set
-	 */
-	public void setPerson(Extends person) {
-		Person = person;
-	}
-
-	/**
-	 * @return the subject
-	 */
 	public String getSubject() {
 		return Subject;
 	}
 
-	/**
-	 * @param subject the subject to set
-	 */
-	public void setSubject(String subject) {
-		Subject = subject;
-	}
-
-	/**
-	 * @return the title
-	 */
 	public String getTitle() {
 		return Title;
 	}
 
-	/**
-	 * @param title the title to set
-	 */
-	public void setTitle(String title) {
-		Title = title;
-	}
-	public abstract String toString()
+	public String toString;
 	{
-		return this.title + "." + this.familyName;
+		return this.Title + "." + this.familyName;
 	
+	}
 }
