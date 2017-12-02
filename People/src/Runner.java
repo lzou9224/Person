@@ -1,5 +1,5 @@
 /**
- * /**
+ * /*
  * Lingli Zou, Tabassum Bhuiyan
  * Lab 2.2 Person
  */
@@ -7,7 +7,7 @@
 public class Runner {
 	public static void main(String[]args)
 	{
-		private static String[] firstNames();
+		private static String[] firstName();
 		private static String[] familyName();
 		private static String[] subject();
 		private static Teacher teacher;
@@ -43,5 +43,8 @@ public class Runner {
 	    }
 
 	}
-	
+	public Student randomStudent()
+    {
+    	
+    }	
 }

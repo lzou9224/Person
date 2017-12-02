@@ -19,6 +19,14 @@ public abstract class Teacher extends Person
 	public String getSubject() {
 		return Subject;
 	}
+	
+	public void setSubject(String subject) {
+		Subject = subject;
+	}
+
+	public void setTitle(String title) {
+		Title = title;
+	}
 
 	public String getTitle() {
 		return Title;
