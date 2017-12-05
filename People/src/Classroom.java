@@ -25,11 +25,11 @@ public class Classroom {
 		{
 			if (p instanceof Student)
 			{
-				total+=(student)p.getGPA(); //casting to a type
+				total+=((Student)p).getGPA(); //casting to a type
 			}
-		
+		}		
 		return total/this.student.length;
-		}
+
 	}
 	
 	public void printClass()
