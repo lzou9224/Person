@@ -8,14 +8,14 @@ public class Student extends Person
 {
 	private double GPA;
 	private String Major;
-	private int OSIS;
+	private String Guidance;
 	
-	public Student(int height, String firstName, String familyName, double weight, double GPA, String Major, int OSIS)
+	public Student(int height, String firstName, String familyName, double weight, double GPA, String Major, String Guidance)
 	{
 		super(height, firstName,familyName, weight); //super constructor
 		this.GPA=GPA;
 		this.Major=Major;
-		this.OSIS=OSIS;
+		this.Guidance=Guidance;
 	}
 
 	public double getGPA() {
@@ -35,12 +35,12 @@ public class Student extends Person
 	}
 
 
-	public int getOSIS() {
-		return OSIS;
+	public String getGuidance() {
+		return Guidance;
 	}
 
-	public void setOSIS(int oSIS) {
-		OSIS = oSIS;
+	public void setGuidance(String guidance) {
+		Guidance = guidance;
 	}
 	
 	public String toString()

@@ -17,12 +17,15 @@ public class Runner {
 				"Roberts", "Turner", "Edwards", "Morris", "Rogers", "Reed", "Cooper", "Cox", "Torres", "James",
 				"Bhuiyan", "Wood", "Chen"};
 		
-		private static String[] subject()={"Math", "Science", "Technology", "Computer Sciences", "Calculus", "Algebra",
+		private static String[] Subject()={"Math", "Science", "Technology", "Computer Sciences", "Calculus", "Algebra",
 				"English", "Art", "Drama", "Language", "Physical Education", "Band", "Anatomy", "Genetics"};
 		
-		private static String[] majors()={"Biological Science", "Math", "College Prep", "Gateway to Medicine", 
+		private static String[] Major()={"Biological Science", "Math", "College Prep", "Gateway to Medicine", 
 				"Electrical Engineering", "Civil Engineering", "Chemical Engineering", "Industrial Design", 
 				"Physics","Architecture", "Aerospace Engineering"};
+		
+		private static String[] Guidance()={"Blain", "Taub", "Ambroise", "Barone", "Bosco", "Chan", "Blankson",
+				"Cuesta", "Holland", "Corsby", "Jordan", "Lam", "Lulov", "Paulson"};
 		
 		private static Teacher teacher;
 		private static Student[] students;
