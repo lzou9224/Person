@@ -32,7 +32,7 @@ public abstract class Teacher extends Person
 		return Title;
 	}
 
-	public String toString;
+	public String toString()
 	{
 		return this.getTitle() + "." + this.getFamilyName();
 	
