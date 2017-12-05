@@ -7,12 +7,23 @@
 public class Runner {
 	public static void main(String[]args)
 	{
-		private static String[] firstNames() ={"Sara", "Lingli", "Tabassum", "Sam", "Alex", "John"
+		private static String[] firstNames() ={"Sara", "Lingli", "Tabassum", "Sam", "Alex", "John",
 				"Nicole", "Vivian", "Ming", "Kelly", "Jenny", "Daniel", "Tanvir", "Amy", "David",
-				"Dustin", "Sam", "Mimi", "Fanny", "Bob", "Sherry"}
-		private static String[] familyNames()={}
-		private static String[] subject()={}
-		private static String[] majors()={}
+				"Dustin", "Sam", "Mimi", "Fanny", "Bob", "Sherry", "Michelle", "Toby", "Felix", 
+				"Tammy", "William", "Thomas", "Allen", "Kenny", "Kevin"};
+		
+		private static String[] familyNames()={"Zou", "Taylor", "Brooks", "Williams", "Smith", "Johnson", "Jones",
+				"Lin", "Thompson", "Brown", "Davis", "Lee", "Hill", "Scott", "Lopez", "Mitchell", "Perez",
+				"Roberts", "Turner", "Edwards", "Morris", "Rogers", "Reed", "Cooper", "Cox", "Torres", "James",
+				"Bhuiyan", "Wood", "Chen"};
+		
+		private static String[] subject()={"Math", "Science", "Technology", "Computer Sciences", "Calculus", "Algebra",
+				"English", "Art", "Drama", "Language", "Physical Education", "Band", "Anatomy", "Genetics"};
+		
+		private static String[] majors()={"Biological Science", "Math", "College Prep", "Gateway to Medicine", 
+				"Electrical Engineering", "Civil Engineering", "Chemical Engineering", "Industrial Design", 
+				"Physics","Architecture", "Aerospace Engineering"};
+		
 		private static Teacher teacher;
 		private static Student[] students;
 		
