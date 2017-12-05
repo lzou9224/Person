@@ -7,9 +7,12 @@
 public class Runner {
 	public static void main(String[]args)
 	{
-		private static String[] firstName();
-		private static String[] familyName();
-		private static String[] subject();
+		private static String[] firstNames() ={"Sara", "Lingli", "Tabassum", "Sam", "Alex", "John"
+				"Nicole", "Vivian", "Ming", "Kelly", "Jenny", "Daniel", "Tanvir", "Amy", "David",
+				"Dustin", "Sam", "Mimi", "Fanny", "Bob", "Sherry"}
+		private static String[] familyNames()={}
+		private static String[] subject()={}
+		private static String[] majors()={}
 		private static Teacher teacher;
 		private static Student[] students;
 		
